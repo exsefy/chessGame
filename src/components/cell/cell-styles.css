@@ -1,0 +1,37 @@
+.cell {
+    width: calc((100vh * 0.9) / 9.6);
+    height: calc((100vh * 0.85) / 9.4);
+    padding: 0.25rem 0.35rem;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light {
+    background-color: rgb(235, 228, 219);
+}
+.dark {
+    background-color: #b6b3b3;
+}
+
+.possible-move {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    opacity: 0.85;
+}
+.check {
+    background-image: linear-gradient(
+        to right,
+        #f66f88 0%,
+        #ee5574 19%,
+        #f8444d 60%,
+        #eb7b6a 100%
+    );
+}
